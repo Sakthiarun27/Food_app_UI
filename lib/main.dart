@@ -15,7 +15,7 @@ class Initialscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: loginscreen(),
       title: 'foodie',
 
     );
